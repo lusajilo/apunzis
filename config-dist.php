@@ -40,10 +40,10 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = 'pgsql';      // 'pgsql', 'mariadb', 'mysqli', 'auroramysql', 'sqlsrv' or 'oci'
 $CFG->dblibrary = 'native';     // 'native' only at the moment
-$CFG->dbhost    = 'localhost';  // eg 'localhost' or 'db.isp.com' or IP
-$CFG->dbname    = 'moodle';     // database name, eg moodle
-$CFG->dbuser    = 'username';   // your database username
-$CFG->dbpass    = 'password';   // your database password
+$CFG->dbhost    = 'ec2-3-227-15-75.compute-1.amazonaws.com';  // eg 'localhost' or 'db.isp.com' or IP
+$CFG->dbname    = 'dj3kli0o1ah29';     // database name, eg moodle
+$CFG->dbuser    = 'hqluautenrfdgh';   // your database username
+$CFG->dbpass    = '89d97a94f07eec88552d9ef9d686993a48a588d92146a7341c992c07ea0a1b34';   // your database password
 $CFG->prefix    = 'mdl_';       // prefix to use for all table names
 $CFG->dboptions = array(
     'dbpersist' => false,       // should persistent database connections be
@@ -56,7 +56,7 @@ $CFG->dboptions = array(
                                 //  (please note mysql is always using socket
                                 //  if dbhost is 'localhost' - if you need
                                 //  local port connection use '127.0.0.1')
-    'dbport'    => '',          // the TCP port number to use when connecting
+    'dbport'    => '5432',          // the TCP port number to use when connecting
                                 //  to the server. keep empty string for the
                                 //  default port
     'dbhandlesoptions' => false,// On PostgreSQL poolers like pgbouncer don't
