@@ -67,7 +67,7 @@ abstract class moodle_recordset implements Iterator {
      * Did we reach the end?
      * @return boolean
      */
-    //public abstract function valid();
+    public abstract function valid();
 
     /**
      * Free resources and connections, recordset can not be used anymore.
