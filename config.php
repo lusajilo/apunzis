@@ -6,10 +6,10 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = 'pgsql';
 $CFG->dblibrary = 'native';
-$CFG->dbhost    = 'localhost';
-$CFG->dbname    = 'moodle';
-$CFG->dbuser    = 'root';
-$CFG->dbpass    = '';
+$CFG->dbhost    = 'ec2-3-227-15-75.compute-1.amazonaws.com';
+$CFG->dbname    = 'dj3kli0o1ah29';
+$CFG->dbuser    = 'hqluautenrfdgh';
+$CFG->dbpass    = '89d97a94f07eec88552d9ef9d686993a48a588d92146a7341c992c07ea0a1b34S';
 $CFG->prefix    = 'mdl_';
 $CFG->sslproxy = true;
 $CFG->dboptions = array (
