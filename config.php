@@ -20,7 +20,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = 'https://apunzis.herokuapp.com/';
-$CFG->dataroot  = 'C:\\xampp\\moodledata';
+$CFG->dataroot  = '/tmp';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
