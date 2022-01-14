@@ -19,7 +19,7 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_unicode_ci',
 );
 
-$CFG->wwwroot   = 'http://apunzis.herokuapp.com/';
+$CFG->wwwroot   = 'http://apunzis.herokuapp.com';
 $CFG->dataroot  = '/tmp';
 $CFG->admin     = 'admin';
 
