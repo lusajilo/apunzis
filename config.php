@@ -9,12 +9,12 @@ $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'ec2-3-227-15-75.compute-1.amazonaws.com';
 $CFG->dbname    = 'dj3kli0o1ah29';
 $CFG->dbuser    = 'hqluautenrfdgh';
-$CFG->dbpass    = '89d97a94f07eec88552d9ef9d686993a48a588d92146a7341c992c07ea0a1b34S';
+$CFG->dbpass    = '89d97a94f07eec88552d9ef9d686993a48a588d92146a7341c992c07ea0a1b34';
 $CFG->prefix    = 'mdl_';
 $CFG->sslproxy = true;
 $CFG->dboptions = array (
   'dbpersist' => 0,
-  'dbport' => '',
+  'dbport' => '5432',
   'dbsocket' => '',
   'dbcollation' => 'utf8mb4_unicode_ci',
 );
