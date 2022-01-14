@@ -4,7 +4,7 @@ unset($CFG);
 global $CFG;
 $CFG = new stdClass();
 
-$CFG->dbtype    = 'MariaDB';
+$CFG->dbtype    = 'pgsql';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
 $CFG->dbname    = 'moodle';
@@ -19,8 +19,8 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_unicode_ci',
 );
 
-$CFG->wwwroot   = 'https://localhost/moodle';
-$CFG->dataroot  = 'C:\\xampp2\\moodledata';
+$CFG->wwwroot   = 'https://apunzis.herokuapp.com/';
+$CFG->dataroot  = 'C:\\xampp\\moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
