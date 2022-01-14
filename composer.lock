@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c82b1c534f736b1f093680ffbd51349d",
+    "content-hash": "17a501db6999860d182dc5c682099820",
     "packages": [],
     "packages-dev": [
         {
@@ -25,7 +25,7 @@
                 "behat/gherkin": "^4.6.0",
                 "behat/transliterator": "^1.2",
                 "ext-mbstring": "*",
-                "php": "^7.4.0",
+                "php": "^7.2 || ^8.0",
                 "psr/container": "^1.0",
                 "symfony/config": "^4.4 || ^5.0",
                 "symfony/console": "^4.4 || ^5.0",
@@ -1377,7 +1377,7 @@
             },
             "require": {
                 "ext-filter": "*",
-                "php": "^7.4.0",
+                "php": "^7.2 || ^8.0",
                 "phpdocumentor/reflection-common": "^2.2",
                 "phpdocumentor/type-resolver": "^1.3",
                 "webmozart/assert": "^1.9.1"
@@ -5218,7 +5218,9 @@
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "~7.2|~8.0"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
 }

@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'da1ddb4ac1fa561706e635eb280f6073248370cf',
+        'reference' => '10b4705645289996a5d350ea458059fb060516f4',
         'name' => 'moodle/moodle',
         'dev' => true,
     ),
@@ -148,7 +148,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'da1ddb4ac1fa561706e635eb280f6073248370cf',
+            'reference' => '10b4705645289996a5d350ea458059fb060516f4',
             'dev_requirement' => false,
         ),
         'moodlehq/behat-extension' => array(
